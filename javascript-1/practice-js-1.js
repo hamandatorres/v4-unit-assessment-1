@@ -2,17 +2,17 @@
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
 //CODE HERE 
-let myName = 'Carlos Chavez'
+var myName = "Carlos chavez"
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
-let faveNum = 1
+var faveNum = 1
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
-let lovesCode = true
+var lovesCode = true
 //////////////////PROBLEM 4////////////////////
 /*
   Create a function called 'sum' that takes in two parameters, 'num1' and 'num2'. 
@@ -23,6 +23,7 @@ let lovesCode = true
 function sum(num1, num2) {
   return num1 + num2
 }
+
 //////////////////PROBLEM 5////////////////////
 /*
   Create a function called 'trueOrFalse' that takes in a single parameter called 'data'. 
@@ -77,11 +78,13 @@ iLove(Carlos, Lacey)
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
+faveColors.slice(0)
 
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
+colorCopy.push('yellow')
 
 //////////////////PROBLEM 10////////////////////
 /*
@@ -92,6 +95,7 @@ const faveColors = ['red', 'green', 'black']
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
+const middleNums = number.slice(1, 3)
 
 //////////////////PROBLEM 11////////////////////
 /*
@@ -108,6 +112,14 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 //CODE HERE
+let me = {
+  firsName: 'Carlos',
+  state: 'Utah',
+  age: 31,
+  greeter: function() {
+    return 'Hello! My name is ' + (me.name) + 'and i live in ' + (me.state)'
+  }
+}
 
 //////////////////PROBLEM 12////////////////////
 /* 
@@ -135,7 +147,9 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 //CODE HERE
-
+function arrayTeverser(arr) {
+  let reversed = ['']
+}
 //////////////////PROBLEM 14////////////////////
 
 let global = 'cool string'
@@ -160,16 +174,16 @@ function secondFunction() {
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ['global', 'inner', 'outer', 'functional']
+let globalScope = ['global']
 
 //This array should contain the variable names (as strings) accessible in the firstFunction function.
-let firstFunctionScope = ['global', 'inner', 'outer', 'functional']
+let firstFunctionScope = ['global', 'outer']
 
 //This array should contain the variable names (as strings) accessible in the innerFunction function.
-let innerFunctionScope = ['global', 'inner', 'outer', 'functional']
+let innerFunctionScope = ['global', 'inner', 'outer']
 
 //This array should contain the variable names (as strings) accessible in the secondFunction function.
-let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
+let secondFunctionScope = ['global','functional']
 
 
 //////////////////PROBLEM 15////////////////////
@@ -179,6 +193,9 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
 */
 
 //CODE HERE
+function firstItem(arr, cab) {
+  cab(arr[0])
+}
 
 //////////////////PROBLEM 16////////////////////
 /* 
@@ -189,7 +206,12 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
 */
 
 //CODE HERE
-
+function isItBob(item, cb) {
+  if (item.name == 'Bob') {
+    cb(true) } else {
+      return false
+    }
+    }
 //////////////////PROBLEM 17////////////////////
 /*
   Write a function called giveMeDoubles that takes in two arguments: an array of numbers and a callback.  
@@ -198,6 +220,12 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
 */
 
 //CODE HERE
+function giveMeDoubles(arr, cb) {
+  for (i = 0; i < arr.length; i++) {
+    arr[i] *= 2
+  }
+  return arr
+}
 
 //////////////////PROBLEM 18////////////////////
 /*
@@ -225,3 +253,13 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
 */
 
 //CODE HERE
+function carFactory(make, model, year) {
+  let car = [
+    make: '',
+    model: '',
+    year: '',
+  ] 
+  for (let make = 0, year > 2018, i++) {
+    return true
+  } else isNew(carFactory.year = false)
+}
