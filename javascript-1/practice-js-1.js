@@ -36,11 +36,11 @@ function sum(num1, num2) {
 function trueOrFalse(data) {
   if (data == true) {
   return true 
+} 
+  else {
+    return false
 }
-    else {
-      return false
-    }
-  }
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,11 +52,11 @@ function trueOrFalse(data) {
 
 //CODE HERE
 function oddChecker(num) {
-  if (num % 2) {
-    return "the number is even"
+  if (num % 2 == 0) {
+    console.log("the number is even");
   }
     else {
-      return "the number is off"
+    console.log("the number is off");
     }
   }
 //////////////////PROBLEM 7////////////////////
@@ -68,9 +68,9 @@ function oddChecker(num) {
 
 //CODE HERE
 function iLove(name, love) {
-  return (${name} loves ${love})
+  console.log(${name} loves ${love})
 }
-iLove(Carlos, Lacey)
+iLove(carlos, lacey)
 
 //////////////////PROBLEM 8////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
@@ -117,7 +117,7 @@ let me = {
   state: 'Utah',
   age: 31,
   greeter: function() {
-    return 'Hello! My name is ' + (me.name) + 'and i live in ' + (me.state)'
+    console.log('Hello! My name is ' + (me.name) + 'and i live in ' + (me.state)')
   }
 }
 
