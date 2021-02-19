@@ -2,17 +2,17 @@
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
 //CODE HERE 
-
+let myName = 'Carlos Chavez'
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
-
+let faveNum = 1
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
-
+let lovesCode = true
 //////////////////PROBLEM 4////////////////////
 /*
   Create a function called 'sum' that takes in two parameters, 'num1' and 'num2'. 
@@ -20,7 +20,9 @@
 */
 
 //CODE HERE
-
+function sum(num1, num2) {
+  return num1 + num2
+}
 //////////////////PROBLEM 5////////////////////
 /*
   Create a function called 'trueOrFalse' that takes in a single parameter called 'data'. 
@@ -30,6 +32,14 @@
 */
 
 //CODE HERE
+function trueOrFalse(data) {
+  if (data == true) {
+  return true 
+}
+    else {
+      return false
+    }
+  }
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -40,7 +50,14 @@
 */
 
 //CODE HERE
-
+function oddChecker(num) {
+  if (num % 2) {
+    return "the number is even"
+  }
+    else {
+      return "the number is off"
+    }
+  }
 //////////////////PROBLEM 7////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 

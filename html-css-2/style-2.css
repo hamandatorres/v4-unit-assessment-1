@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 10px;
+}
+header {
+  height: 100px;
+  background-color: aquamarine;
+}
+.box {
+  width: 100%;
+  border: 5px dotted black;
+  padding: 10px;
+  box-sizing: border-box ;
+}
+.violet {
+  width:70px;
+  height:30px;
+  background-color: purple;
+  display:inline-block;
+  border: 2px red;
+}
+.blue {
+  height:30px;
+  width: 30px;
+  background-color: blue;
+  display: inline-block;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.pink {
+  height:60px;
+  width:60px;
+  background-color: pink;
+  border:2px black;
+}
+.first-circle {
+  position: relative;
+  left: 40px;
+  height:20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display:block;
+  padding:0%;
+}
+.second-circle {
+  position: relative;
+  left: 35px;
+  height: 30px;
+  width: 30px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+  padding: 0%;
+}
+.third-circle {
+  height: 60px;
+  width: 60px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+  padding:0%
+}
+.square {
+  height:80px;
+  width:80px;
+  background-color: pink;
+}
+.circle {
+  height:60px;
+  width:60px;
+  background-color: green;
+  border-radius: 50%;
+}
+.square2 {
+  height:40px;
+  width:40px;
+  background-color: red;
+}
