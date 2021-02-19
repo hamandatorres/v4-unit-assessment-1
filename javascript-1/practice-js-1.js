@@ -66,7 +66,10 @@ function oddChecker(num) {
 */
 
 //CODE HERE
-
+function iLove(name, love) {
+  return (${name} loves ${love})
+}
+iLove(Carlos, Lacey)
 
 //////////////////PROBLEM 8////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
