@@ -2,11 +2,13 @@
 /* Create an array called 'groceries' that contains three grocery items of your choice as strings. */
 
 //CODE HERE
+const groceries = ['juice', 'orange', 'beef']
 
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
 //CODE HERE
+let youName = 'Carlos Chavez'
 
 //////////////////STEP 3////////////////////
 /*
@@ -17,6 +19,9 @@
 */
 
 //CODE HERE
+function setGroceryListTitle(x) {
+    return "${x}'s Grocery List"
+}
 
 //////////////////STEP 4////////////////////
 /* 
@@ -27,6 +32,10 @@
 */
 
 //CODE HERE
+function addItem(item) {
+    displayData()
+}
+groceries.push(item)
 
 //////////////////STEP 5////////////////////
 /*
@@ -37,6 +46,10 @@
 */
 
 //CODE HERE
+function removeItem(index) {
+    groceries.splice(1, 1, index)
+    displayData()
+}
 
 //////////////////STEP 6////////////////////
 /*
@@ -51,6 +64,19 @@
 
 //CODE HERE
 
+function checkGroceryCount () {
+    groceries.length
+    if (i = 0, groceries.length > 5, i++) {
+        return 'That looks like a big trip'
+    }
+    else if (i = 0, groceries.length === 1, i++) {
+        return '1 item'
+    }
+    else (i = 0, groceries.length <== 1 && groceries.length ==> 5, i++) {
+        return '$() items'
+    }
+    }
+    
 
 //////////////////Check out your code!////////////////////
 /*
